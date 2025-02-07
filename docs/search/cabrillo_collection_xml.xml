@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.LibraryCollection">
+    <property name="name" type="string">Tracker Sampler</property>
+    <property name="html_path" type="string">cabrillo_collection.html</property>
+    <property name="base_path" type="string">https://physlets.org/tracker/library/</property>
+    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+        <property name="[0]" type="object">
+        <object class="org.opensourcephysics.tools.LibraryCollection">
+            <property name="name" type="string">Mechanics</property>
+            <property name="html_path" type="string">mechanics.html</property>
+            <property name="base_path" type="string">https://physlets.org/tracker/library/experiments/</property>
+            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Free Fall</property>
+                    <property name="html_path" type="string">free_fall.html</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Motion diagram</property>
+                            <property name="html_path" type="string">MotionDiagram.html</property>
+                            <property name="target" type="string">MotionDiagram.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Point mass track</property>
+                            <property name="html_path" type="string">BallToss.html</property>
+                            <property name="target" type="string">BallToss.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">projectile_model</property>
+                            <property name="html_path" type="string">projectile_model.zip!/html/projectile_model_new_info.html</property>
+                            <property name="target" type="string">projectile_model.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Video</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos/</property>
+                            <property name="target" type="string">BallTossOut.mp4</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Air Resistance</property>
+                    <property name="html_path" type="string">cup_clips.html</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">CupsClips</property>
+                            <property name="html_path" type="string">cup_clips_0.zip!/html/CupsClips_info.html</property>
+                            <property name="target" type="string">cup_clips_0.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Particle Models</property>
+                            <property name="html_path" type="string">cup_clips_1.html</property>
+                            <property name="target" type="string">cup_clips_1.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">CupsClipsViscousModel</property>
+                            <property name="html_path" type="string">cup_clips_2.zip!/html/cup_clips_2_info.html</property>
+                            <property name="target" type="string">cup_clips_2.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">CupsClipsDragModel</property>
+                            <property name="html_path" type="string">cup_clips_3.zip!/html/cup_clips_3_info.html</property>
+                            <property name="target" type="string">cup_clips_3.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[4]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Video</property>
+                            <property name="html_path" type="string">CupsClips.html</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="target" type="string">CupsClips.mp4</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[2]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Simple Pendulum</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Pendulum</property>
+                            <property name="html_path" type="string">PendulumForces.zip!/html/PendulumForces_info.html</property>
+                            <property name="target" type="string">PendulumForces.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Video</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="target" type="string">Pendulum.mp4</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[3]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Collisions</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">PucksCollide</property>
+                            <property name="html_path" type="string">PucksCollide.zip!/html/PucksCollide_info.html</property>
+                            <property name="target" type="string">PucksCollide.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Video</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="target" type="string">PucksCollide.mp4</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="[1]" type="object">
+        <object class="org.opensourcephysics.tools.LibraryCollection">
+            <property name="name" type="string">Spectroscopy</property>
+            <property name="html_path" type="string">spectroscopy.html</property>
+            <property name="base_path" type="string">https://physlets.org/tracker/library/experiments/</property>
+            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Thermal Spectra</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">thermal_color</property>
+                            <property name="html_path" type="string">thermal_color.zip!/html/thermal_color_info.html</property>
+                            <property name="target" type="string">thermal_color.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">thermal_gray</property>
+                            <property name="html_path" type="string">thermal_gray.zip!/html/thermal_gray_info.html</property>
+                            <property name="target" type="string">thermal_gray.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">thermal_cool</property>
+                            <property name="html_path" type="string">thermal_cool.zip!/html/thermal_cool_info.html</property>
+                            <property name="target" type="string">thermal_cool.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">sunlight</property>
+                            <property name="html_path" type="string">sunlight.zip!/html/sunlight_info.html</property>
+                            <property name="target" type="string">sunlight.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[4]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryCollection">
+                            <property name="name" type="string">Videos</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                <property name="[0]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Soft white: color</property>
+                                    <property name="target" type="string">60Wsoft_thermal_color.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[1]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Soft white: grayscale</property>
+                                    <property name="target" type="string">60Wsoft_thermal_gray.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[2]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Soft white: cool</property>
+                                    <property name="target" type="string">60Wsoft_60V_gray.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[3]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Sunlight</property>
+                                    <property name="target" type="string">sun_gray.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Color Filters</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">color_filter_128</property>
+                            <property name="html_path" type="string">color_filter_128.zip!/html/color_filter_128_info.html</property>
+                            <property name="target" type="string">color_filter_128.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">color_filter_139</property>
+                            <property name="html_path" type="string">color_filter_139.zip!/html/color_filter_139_info.html</property>
+                            <property name="target" type="string">color_filter_139.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryCollection">
+                            <property name="name" type="string">Videos</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                <property name="[0]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Lee 128</property>
+                                    <property name="target" type="string">60Wsoft_filter_pink128_gray.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[1]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Lee 139</property>
+                                    <property name="target" type="string">60Wsoft_filter_green139_gray.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[2]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Line Spectra</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">laser</property>
+                            <property name="html_path" type="string">laser.zip!/html/laser_info.html</property>
+                            <property name="target" type="string">laser.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Hydrogen</property>
+                            <property name="html_path" type="string">Hydrogen.zip!/html/Hydrogen_info.html</property>
+                            <property name="target" type="string">Hydrogen.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Mercury</property>
+                            <property name="html_path" type="string">Mercury.zip!/html/Mercury_info.html</property>
+                            <property name="target" type="string">Mercury.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Helium</property>
+                            <property name="html_path" type="string">Helium.zip!/html/Helium_info.html</property>
+                            <property name="target" type="string">Helium.zip</property>
+                            <property name="type" type="string">Tracker</property>
+                            <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Author</property>
+                                    <property name="[1]" type="string">Douglas Brown</property>
+                                </property>
+                                <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                    <property name="[0]" type="string">Contact</property>
+                                    <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[4]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryCollection">
+                            <property name="name" type="string">Videos</property>
+                            <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                <property name="[0]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Green laser</property>
+                                    <property name="target" type="string">fluor_green_532_color_60.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[1]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Hydrogen</property>
+                                    <property name="target" type="string">gas_H.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[2]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Mercury</property>
+                                    <property name="target" type="string">gas_Hg.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                                <property name="[3]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">Helium</property>
+                                    <property name="target" type="string">gas_He.mp4</property>
+                                    <property name="type" type="string">Video</property>
+                                </object>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="[3]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Fluorescence</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryCollection">
+                            <property name="name" type="string">Red Dye</property>
+                            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                <property name="[0]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">fluoresce_uv365</property>
+                                    <property name="html_path" type="string">fluoresce_uv365.zip!/html/fluoresce_uv365_info.html</property>
+                                    <property name="target" type="string">fluoresce_uv365.zip</property>
+                                    <property name="type" type="string">Tracker</property>
+                                    <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Author</property>
+                                            <property name="[1]" type="string">Douglas Brown</property>
+                                        </property>
+                                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Contact</property>
+                                            <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                                <property name="[1]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">fluoresce_laser</property>
+                                    <property name="html_path" type="string">fluoresce_laser.zip!/html/fluoresce_laser_info.html</property>
+                                    <property name="target" type="string">fluoresce_laser.zip</property>
+                                    <property name="type" type="string">Tracker</property>
+                                    <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Author</property>
+                                            <property name="[1]" type="string">Douglas Brown</property>
+                                        </property>
+                                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Contact</property>
+                                            <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                                <property name="[2]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryCollection">
+                                    <property name="name" type="string">Videos</property>
+                                    <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                        <property name="[0]" type="object">
+                                        <object class="org.opensourcephysics.tools.LibraryResource">
+                                            <property name="name" type="string">UV Illumination</property>
+                                            <property name="target" type="string">fluor_red_uv_color.mov</property>
+                                            <property name="type" type="string">Video</property>
+                                        </object>
+                                        </property>
+                                        <property name="[1]" type="object">
+                                        <object class="org.opensourcephysics.tools.LibraryResource">
+                                            <property name="name" type="string">Laser illumination</property>
+                                            <property name="target" type="string">fluor_red_532_color_80.mov</property>
+                                            <property name="type" type="string">Video</property>
+                                        </object>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryCollection">
+                            <property name="name" type="string">Fluorescent Tubes</property>
+                            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                <property name="[0]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">fluor_lamp_6300K</property>
+                                    <property name="html_path" type="string">fluor_lamp_6300K.zip!/html/fluor_lamp_6300K_info.html</property>
+                                    <property name="target" type="string">fluor_lamp_6300K.zip</property>
+                                    <property name="type" type="string">Tracker</property>
+                                    <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Author</property>
+                                            <property name="[1]" type="string">Douglas Brown</property>
+                                        </property>
+                                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Contact</property>
+                                            <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                                <property name="[1]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryResource">
+                                    <property name="name" type="string">fluor_lamp_3000K</property>
+                                    <property name="html_path" type="string">fluor_lamp_3000K.zip!/html/fluor_lamp_3000K_info.html</property>
+                                    <property name="target" type="string">fluor_lamp_3000K.zip</property>
+                                    <property name="type" type="string">Tracker</property>
+                                    <property name="metadata" type="array" class="[[Ljava.lang.String;">
+                                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Author</property>
+                                            <property name="[1]" type="string">Douglas Brown</property>
+                                        </property>
+                                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                                            <property name="[0]" type="string">Contact</property>
+                                            <property name="[1]" type="string">dobrown@cabrillo.edu</property>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                                <property name="[2]" type="object">
+                                <object class="org.opensourcephysics.tools.LibraryCollection">
+                                    <property name="name" type="string">Videos</property>
+                                    <property name="base_path" type="string">https://physlets.org/tracker/library/videos</property>
+                                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                                        <property name="[0]" type="object">
+                                        <object class="org.opensourcephysics.tools.LibraryResource">
+                                            <property name="name" type="string">6300K color</property>
+                                            <property name="target" type="string">6300K_fluor_lamp_gray.mov</property>
+                                            <property name="type" type="string">Video</property>
+                                        </object>
+                                        </property>
+                                        <property name="[1]" type="object">
+                                        <object class="org.opensourcephysics.tools.LibraryResource">
+                                            <property name="name" type="string">3000K color</property>
+                                            <property name="target" type="string">3000K_fluor_lamp_gray.mov</property>
+                                            <property name="type" type="string">Video</property>
+                                        </object>
+                                        </property>
+                                    </property>
+                                </object>
+                                </property>
+                            </property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="[2]" type="object">
+        <object class="org.opensourcephysics.tools.LibraryCollection">
+            <property name="name" type="string">Student Modeling Projects</property>
+            <property name="html_path" type="string">student_projects.html</property>
+            <property name="base_path" type="string">https://physlets.org/tracker/library/experiments/</property>
+            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Bouncing cart</property>
+                    <property name="html_path" type="string">bouncing_cart.html</property>
+                    <property name="target" type="string">bouncing_cart.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Monkey with a parachute</property>
+                    <property name="html_path" type="string">parachute_monkey.html</property>
+                    <property name="target" type="string">parachute_monkey.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[2]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Spring wars!</property>
+                    <property name="html_path" type="string">spring_wars.html</property>
+                    <property name="target" type="string">spring_wars.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[3]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Ball hanging from cart</property>
+                    <property name="html_path" type="string">cart_pendulum.html</property>
+                    <property name="target" type="string">cart_pendulum.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[4]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Pendulum with drag</property>
+                    <property name="html_path" type="string">pendulum_drag.html</property>
+                    <property name="target" type="string">pendulum_drag.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[5]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Ball on spring</property>
+                    <property name="html_path" type="string">ball_oil.html</property>
+                    <property name="target" type="string">ball_oil.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[6]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Videos</property>
+                    <property name="html_path" type="string">student_videos.html</property>
+                    <property name="base_path" type="string">https://physlets.org/tracker/library/videos/</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Bouncing cart</property>
+                            <property name="target" type="string">bouncing_cart.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Monkey with a parachute</property>
+                            <property name="target" type="string">parachute_monkey.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Spring wars!</property>
+                            <property name="target" type="string">spring_wars.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Ball hanging from cart</property>
+                            <property name="target" type="string">cart_pendulum.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[4]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Pendulum with drag</property>
+                            <property name="target" type="string">pendulum_drag.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[5]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Ball on spring</property>
+                            <property name="target" type="string">ball_oil.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+    <property name="real_path" type="string">https://physlets.org/tracker/library/cabrillo_collection.xml</property>
+</object>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.LibraryCollection">
+    <property name="name" type="string">Eckerd Tracker Collection</property>
+    <property name="html_path" type="string">eckerd_tracker_collection_info.html</property>
+    <property name="base_path" type="string">http://academics.eckerd.edu/physics/tracker/</property>
+    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+        <property name="[0]" type="object">
+        <object class="org.opensourcephysics.tools.LibraryCollection">
+            <property name="name" type="string">classical</property>
+            <property name="base_path" type="string">http://academics.eckerd.edu/physics/tracker/classical/</property>
+            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">badminton_model</property>
+                    <property name="html_path" type="string">badminton_model.html</property>
+                    <property name="target" type="string">badminton_model.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">coriolis_tracker</property>
+                    <property name="html_path" type="string">coriolis_tracker.html</property>
+                    <property name="target" type="string">coriolis_tracker.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="[1]" type="object">
+        <object class="org.opensourcephysics.tools.LibraryCollection">
+            <property name="name" type="string">intro</property>
+            <property name="base_path" type="string">http://academics.eckerd.edu/physics/tracker/intro/</property>
+            <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Angry_Birds_slingshot</property>
+                    <property name="html_path" type="string">Angry_Birds_slingshot.html</property>
+                    <property name="target" type="string">Angry_Birds_slingshot.trk</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">antique_cars_train_chase</property>
+                    <property name="html_path" type="string">antique_cars_train_chase.html</property>
+                    <property name="target" type="string">antique_cars_train_chase.trk</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[2]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">pocket_bike_looping</property>
+                    <property name="html_path" type="string">pocket_bike_looping.html</property>
+                    <property name="target" type="string">pocket_bike_looping.trk</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[3]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">verttruck</property>
+                    <property name="html_path" type="string">verttruck.html</property>
+                    <property name="target" type="string">verttruck.trk</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[4]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">AngryBirdsProjectileMotion</property>
+                    <property name="html_path" type="string">AngryBirdsProjectileMotion.html</property>
+                    <property name="target" type="string">AngryBirdsProjectileMotion.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[5]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Dolphin_Jump_Projectile_Motion</property>
+                    <property name="html_path" type="string">Dolphin_Jump_Projectile_Motion.html</property>
+                    <property name="target" type="string">Dolphin_Jump_Projectile_Motion.zip</property>
+                    <property name="type" type="string">Tracker</property>
+                </object>
+                </property>
+                <property name="[6]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Angry_Birds_short</property>
+                    <property name="html_path" type="string">Angry_Birds_short.html</property>
+                    <property name="target" type="string">Angry_Birds_short.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[7]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">Colliding_Carts_45-mMe</property>
+                    <property name="target" type="string">Colliding_Carts_45-mMe.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[8]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">antique_cars_train_chase</property>
+                    <property name="html_path" type="string">antique_cars_train_chase.html</property>
+                    <property name="target" type="string">antique_cars_train_chase.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[9]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">ball_toss1</property>
+                    <property name="target" type="string">ball_toss1.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[10]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">ball_toss2</property>
+                    <property name="target" type="string">ball_toss2.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[11]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">loop_full</property>
+                    <property name="target" type="string">loop_full.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[12]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">pendulum</property>
+                    <property name="target" type="string">pendulum.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[13]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">pocket_bike_looping</property>
+                    <property name="html_path" type="string">pocket_bike_looping.html</property>
+                    <property name="target" type="string">pocket_bike_looping.avi</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[14]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">thermal_exp_final_small</property>
+                    <property name="target" type="string">thermal_exp_final_small.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[15]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryResource">
+                    <property name="name" type="string">verttruck</property>
+                    <property name="html_path" type="string">verttruck.html</property>
+                    <property name="target" type="string">verttruck.mov</property>
+                    <property name="type" type="string">Video</property>
+                </object>
+                </property>
+                <property name="[16]" type="object">
+                <object class="org.opensourcephysics.tools.LibraryCollection">
+                    <property name="name" type="string">Collisions</property>
+                    <property name="base_path" type="string">http://academics.eckerd.edu/physics/tracker/intro/Collisions/</property>
+                    <property name="resources" type="array" class="[Lorg.opensourcephysics.tools.LibraryResource;">
+                        <property name="[0]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_31-Mme</property>
+                            <property name="target" type="string">Colliding_Carts_31-Mme.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[1]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_32-mMi</property>
+                            <property name="target" type="string">Colliding_Carts_32-mMi.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[2]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_34-Mmi</property>
+                            <property name="target" type="string">Colliding_Carts_34-Mmi.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[3]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_37-mmi</property>
+                            <property name="target" type="string">Colliding_Carts_37-mmi.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[4]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_41-mme</property>
+                            <property name="target" type="string">Colliding_Carts_41-mme.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                        <property name="[5]" type="object">
+                        <object class="org.opensourcephysics.tools.LibraryResource">
+                            <property name="name" type="string">Colliding_Carts_45-mMe</property>
+                            <property name="target" type="string">Colliding_Carts_45-mMe.mov</property>
+                            <property name="type" type="string">Video</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+    <property name="real_path" type="string">https://academics.eckerd.edu/physics/tracker/eckerd_tracker_collection.php</property>
+</object>
