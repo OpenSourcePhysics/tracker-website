@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Tracker
+title: Tracker Video Analysis and Modeling Tool
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -16,17 +16,29 @@ authors:
     family-names: Christian
     email: wochristian@davidson.edu
     affiliation: Davidson College
-  - given-names: Robert
-    name-particle: M
+  - given-names: Robert M
     family-names: Hanson
     email: hansonr@stolaf.edu
     affiliation: St. Olaf College
-repository-code: 'https://github.com/OpenSourcePhysics/tracker'
+repository-code: 'https://www.compadre.org/osp/items/detail.cfm?ID=7365'
 url: 'https://opensourcephysics.github.io/tracker-website/'
-repository: 'https://www.compadre.org/osp/items/detail.cfm?ID=7365'
+repository: 'https://github.com/OpenSourcePhysics/tracker'
 abstract: >-
-  Tracker is a free video analysis and modeling tool built
-  on the Open Source Physics (OSP) Java framework. It is
-  designed to be used in physics education but is also
-  widely employed in research.
+  Tracker is a free video analysis and modeling tool that
+  runs on Windows, MacOS and Linux. It is designed to be
+  used in physics education.
+keywords:
+  - Open Source Physics
+  - Video analysis
+  - modeling
+  - mechanics
+  - motion
+  - kinematics
+  - oscillation
+  - spectra
+  - spectroscopy
+  - interference
+  - force
 license: GPL-3.0
+version: 6.3.2
+date-released: '2025-07-28'
